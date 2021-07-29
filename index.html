@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <!-- Google Fonts Roboto -->
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/media-queries.css">
+</head>
+<body>
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Toggle button -->
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img
+                            src="./img/didiLogo.png"
+                            height="55"
+                            alt=""
+                            loading="lazy"
+                    />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Преймущества</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Как стать водителем</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Регистрация</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <a href="tel:+77079820000" class="top-number"><b>+77079820000</b></a>
+            </div>
+            <!-- Right elements -->
+        </div>
+    </nav>
+</header>
+<main>
+    <div>
+        <div class="bg-image">
+            <img class="main_img" src="./img/main_img.jpeg" alt="DiDi-Driver"/>
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-center">
+                        <div class="own-h1 my-2">
+                            Подключись к DiDi и зарабатывай до 500 000 тнг в неделю!
+                        </div>
+                        <div class="own-h5 my-2">
+                            КОМИССИЯ ПАРКА 3%!
+                        </div>
+                        <div class="my-2 d-flex justify-content-center">
+                            <button class="btn btn-own-orange btn-lg">Подключиться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="block-1 main_img">
+
+        </div>-->
+        <!--block #2--Made by Wussrun -->
+        <div class="block-2 py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="content-title my-5 d-flex justify-content-center">
+                        Преймущества
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 my-4">
+                        <div class="text-center">
+                            <div class="bg-gradient-orange mb-2">
+                                <div class="gradient-bg p-2">
+                                    <img width="100" src="./img/icons/percent.svg" alt="percent"/>
+                                </div>
+                            </div>
+                            <div class="gradient-bg-text mt-2">
+                                Низкая комиссия
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 my-4">
+                        <div class="text-center">
+                            <div class="bg-gradient-orange mb-2">
+                                <div class="gradient-bg p-2">
+                                    <img width="100" src="./img/icons/tax.svg" alt="percent"/>
+                                </div>
+                            </div>
+                            <div class="gradient-bg-text mt-2">
+                                Высокие бонусы
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 my-4">
+                        <div class="text-center">
+                            <div class="bg-gradient-orange mb-2">
+                                <div class="gradient-bg p-2">
+                                    <img width="100" src="./img/icons/salary.svg" alt="percent"/>
+                                </div>
+                            </div>
+                            <div class="gradient-bg-text mt-2">
+                                Моментальные выплаты
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 my-4">
+                        <div class="text-center">
+                            <div class="bg-gradient-orange mb-2">
+                                <div class="gradient-bg p-2">
+                                    <img width="100" src="./img/icons/work-time.svg" alt="percent"/>
+                                </div>
+                            </div>
+                            <div class="gradient-bg-text mt-2">
+                                Свободный график
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-5 d-flex justify-content-center">
+                    <button class="btn btn-own-orange btn-lg">Подключиться</button>
+                </div>
+            </div>
+        </div>
+        <!--block #3--Made by Wussrun -->
+        <div class="block-3 py-5">
+            <div class="container">
+                <div class="content-title d-flex justify-content-center my-5">
+                    Как стать водителем
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-12 col-lg-6 py-2">
+                        <div>
+                            <video class="w-100 video-tag" src="/wp-content/uploads/2021/05/video-1.mp4"
+                                   controls=""></video>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-12 col-lg-6 py-2">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="" width="50" src="./img/icons/check.svg" alt="Check"/>
+                            <div class="gradient-bg-text">
+                                Оставьте заявку на сайте
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="" width="50" src="./img/icons/check.svg" alt="Check"/>
+                            <div class="gradient-bg-text">
+                                Мы с вами свяжемся и проведем инструктаж
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="" width="50" src="./img/icons/check.svg" alt="Check"/>
+                            <div class="gradient-bg-text">
+                                Можете начинать работать
+                            </div>
+                        </div>
+                        <div class="my-5">
+                            <button class="btn btn-own-orange btn-lg">Подключиться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--block #5--Made by ARMAN -->
+        <div class="block-5 py-5">
+            <div class="container">
+                <div class="content-title text-center d-flex justify-content-center my-5">
+                    Основные требования <br>
+                    для подключения DiDi
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 py-2">
+                        <div class="card twoCards shadow-1-strong" style="border-radius: 20px;">
+                            <div class="p-4">
+                                <div class="h4">
+                                    Водитель
+                                </div>
+                                <div>
+                                    <ul style="list-style: none; padding-left: 0;">
+                                        <li>
+                                            — 18 лет +
+                                        </li>
+                                        <li>
+                                            — Наличие ВУ
+                                        </li>
+                                        <li>
+                                            — Отсутствие судимостей
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="text-center">
+                                    <img src="./img/cardidi.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 py-2">
+                        <div class="card twoCards shadow-1-strong" style="border-radius: 20px;">
+                            <div class="p-4">
+                                <div class="h4">
+                                    Автомобиль
+                                </div>
+                                <div>
+                                    <ul style="list-style: none; padding-left: 0;">
+                                        <li>
+                                            — От 1995 года выпуска
+                                            (в зависимости от марки автомобиля)
+                                        </li>
+                                        <li>
+                                            — Без серьезных повреждений
+                                        </li>
+                                        <li>
+                                            — Двери 4+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="text-center">
+                                    <img src="./img/cardidi2.png" class="img-fluid" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--block #4--Made by ARMAN -->
+        <div class="block-4 py-5">
+            <div class="container">
+                <div class="content-title text-center d-flex justify-content-center my-5">
+                    Остались вопросы? <br>
+                    Оставьте свой номер, мы свяжемся
+                </div>
+                <div class="row">
+                    <div class="col-sl-12 col-md-12 col-lg-3"></div>
+                    <div class="col-sl-12 col-md-12 col-lg-6">
+                        <!--form-->
+                        <div class="card p-4">
+                            <form>
+                                <!-- Name input -->
+                                <div class="form-outline mb-4">
+                                    <input type="text" id="form4Example1" class="form-control"/>
+                                    <label class="form-label" for="form4Example1">Имя</label>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="number" id="form4Example2" class="form-control"/>
+                                    <label class="form-label" for="form4Example2">Телефон номер</label>
+                                </div>
+
+                                <!-- Message input -->
+                                <div class="form-outline mb-4">
+                                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                                    <label class="form-label" for="form4Example3">Message</label>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check d-flex justify-content-center mb-4">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4"
+                                           checked/>
+                                    <label class="form-check-label" for="form4Example4">
+                                        Согласен с <a href="#">Политикой конфиденциальности</a>
+                                    </label>
+                                </div>
+                                <!-- Submit button -->
+                                <div class="my-5 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-own-orange btn-lg">Оставить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!--/form-->
+                    </div>
+                    <div class="col-sl-12 col-md-12 col-lg-3"></div>
+                </div>
+            </div>
+        </div>
+        <!--block #6--Made by ARMAN -->
+        <div class="block-6">
+            <div class="container">
+                <div class="content-title text-center d-flex justify-content-center my-5">
+                    Посмотрите как формируется <br>
+                    ваш заработок в DiDi:
+                </div>
+                <div>
+                    <!--table-->
+                    <!--<table class="table">
+                        <thead>
+                        <tr>
+                            <th><h3>Гарантии в Алматы,<br>Нур-Султане и Шымкенте</h3></th>
+                            <th><h3>Без наклейки</h3></th>
+                            <th><h3 class="uk-text-background gradient-bg p-1">С наклейкой DiDi</h3></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><span class="uk-text-lead">10 поездок</span></td>
+                            <td><span class="uk-text-lead">14 500</span></td>
+                            <td><span class="uk-text-lead uk-text-background">15 700</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="uk-text-lead">20 поездок</span></td>
+                            <td><span class="uk-text-lead">30 000</span></td>
+                            <td><span class="uk-text-lead uk-text-background">32 300</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="uk-text-lead">30 поездок</span></td>
+                            <td><span class="uk-text-lead">48 000</span></td>
+                            <td><span class="uk-text-lead uk-text-background">55 000</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="uk-text-lead">40 поездок</span></td>
+                            <td><span class="uk-text-lead">70 000</span></td>
+                            <td><span class="uk-text-lead uk-text-background">82 300</span></td>
+                        </tr>
+                        </tbody>
+                    </table>-->
+                    <!--/table-->
+                </div>
+            </div>
+        </div>
+        <!--block #7--Made by ARMAN -->
+        <div class="block-7">
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="bg-dark text-white text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            ><i class="far fa-envelope fa-2x"></i
+                            ></a>
+                            diditaxi@gmail.com
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <!-- Section: Social media -->
+                        <div class="mb-4">
+                            <!-- whatsapp -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            ><i class="fab fa-whatsapp fa-2x"></i
+                            ></a>
+
+                            <!-- Instagram -->
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                            ><i class="fab fa-instagram fa-2x"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Разработка и поддержка
+        <a class="text-light text-decoration-underline" target="_blank" href="https:/degdarr.biz/">DEGDARR.BIZ</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+<!-- MDB -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+</body>
+</html>
